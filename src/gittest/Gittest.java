@@ -20,6 +20,7 @@ public class Gittest {
        Scanner input = new Scanner(System.in);
        String name = input.nextLine();
        System.out.println(name);
+       
     }
     
 }
