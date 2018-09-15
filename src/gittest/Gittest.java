@@ -5,6 +5,8 @@
  */
 package gittest;
 
+import java.util.Scanner;
+
 /**
  *
  * @author gould
@@ -15,7 +17,9 @@ public class Gittest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Scanner input = new Scanner(System.in);
+       String name = input.nextLine();
+       System.out.println(name);
     }
     
 }
