@@ -19,7 +19,7 @@ public class Gittest {
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
        String name = input.nextLine();
-       System.out.println(name);
+       System.out.println("Hi, my name is: " + name);
        
     }
     
